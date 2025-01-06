@@ -78,6 +78,13 @@ https://github.com/GoAlers/Music-Top-Recommend
 这个是用Python写的，一些算法实现，作者还写了很长很长的文章去教会你，非常好用
 
 
+### 相关论文
+##### Recommenders
+https://github.com/recommenders-team/recommenders
+Recommenders 是Linux 人工智能与数据基金会下的一个项目。此存储库包含构建推荐系统的示例和最佳实践，以 Jupyter 笔记本的形式提供。
+
+这个仓库展示了一些协同过滤，以及内容过滤算法的论文实现，整体来说比较简单，学会了就可以面试了，性价比还是很高的。
+
 
 
 
