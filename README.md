@@ -10,21 +10,35 @@ github有这么多的资源，不如推荐点好东西给看到文章的各位�
 所以本仓库的目的，就是为了寻找一些比较小众，但是又适合学习、以及写入简历的项目。（后续会持续更新，可以关注一下呀~）
 
 觉得不错的，点个右上角点个星星吧~
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+## AI
+
+### 大模型相关
+这方向非常的热门，也非常的火，门槛高。因为如果是普通后端项目，在本地跑起来并不困难，对机器的要求比较低，但是很多ai infra相关的项目，比如多卡训练，十亿参数的模型微调，多卡推理，其实在本地运行起来都非常困难。即使把代码公开给了用户，用户也只能看看，但是很难真正的去入手，去了解为什么这个训练参数要这么改，怎么跑多卡推理，怎么做量化和蒸馏。这些都是个人学习中难以掌握的内容。
+
+#### 6.5940
+
+这是我看下来，感觉最适合初学者学习的项目。主题包括模型压缩、修剪、量化、神经架构搜索、分布式训练、数据/模型并行、梯度压缩和设备端微调。还介绍了适用于大型语言模型和扩散模型的特定于应用程序的加速技术。还有相关实验，将在笔记本电脑上实现模型压缩技术和部署大型语言模型 （Llama2-7B） 的实践经验。
+
+官网链接：https://hanlab.mit.edu/courses/2024-fall-65940
+
+bilibili视频链接：https://www.bilibili.com/video/BV1fb421q7Ut
+
+#### （非广告）书生大模型实战营
+
+这个项目还行，可以尝试报名参加，会给你云服务器，让你学习如何进行简单的微调、部署。整体来说难度并不高。不过b站也有免费的视频可以看，整体来说还是能学到不少东西的
+
+官网链接：https://github.com/InternLM/tutorial
+
+bilibili视频链接：https://space.bilibili.com/1293512903
+
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-## C++
-### 向量数据库
-https://github.com/asdadeeeee/vectorDB
-a vector database implementation based on 《从零构建向量数据库》；
-支持FaissIndex，HnswlibIndex； 支持标量向量混合查询； 支持数据持久化存储； 使用http请求对数据库发起访问，插入或查询vector
+## 后端
+###  Java
 
-虽然DB赛道非常的饱和，但是结合向量查询，往大模型靠，还是有前景的，这个项目不会太难，因为也有书本参考，比较新颖
+一般说后端，多半都是Java。但是后端项目很多，怎么找到比较出彩的项目，并且写到简历上，比较困难。这里会列出一些比较少见的项目，但是质量也不错，很适合初步学习。
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-## Java
-
-### 后端
-一般说Java，多半都是后端。但是后端项目很多，怎么找到比较出彩的项目，并且写到简历上，比较困难。这里会列出一些比较少见的项目，但是质量也不错，很适合初步学习。
 #### 企业广告系统
 https://github.com/SnoopyWolf007/link-advertise
 
@@ -42,6 +56,12 @@ https://github.com/xmchengyuxin/lekshop
 
 下面推荐的比较适合用于找实习，校招也行，看个人理解程度
 
+#### monolith
+https://github.com/bytedance/monolith
+
+字节跳动的推荐系统实践，学习起来难度颇高，不适合没有基础的学。但是整体质量确实相当的高，学完直接校招不成问题。
+
+
 #### 商品实时推荐系统
 https://github.com/water8394/flink-recommandSystem-demo
 
@@ -55,16 +75,29 @@ https://github.com/XBaith/ams-recommendation-system
 
 这个也是推荐系统，但是也涉及到了后端，有一些消息队列的操作，比较全面
 
+### Go
 
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-## Go
-
-### 后端
 #### 社区
 https://github.com/TengFeiyang01/webook
 
 仿小红书项目，作者的项目说明写的非常详细，而且还教了怎么用k8s部署，目前也在持续更新，值得学习
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+## 基础架构
+### 向量数据库
+https://github.com/asdadeeeee/vectorDB
+a vector database implementation based on 《从零构建向量数据库》；
+支持FaissIndex，HnswlibIndex； 支持标量向量混合查询； 支持数据持久化存储； 使用http请求对数据库发起访问，插入或查询vector
+
+虽然DB赛道非常的饱和，但是结合向量查询，往大模型靠，还是有前景的，这个项目不会太难，因为也有书本参考，比较新颖
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+
+
+
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ## 算法
